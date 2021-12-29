@@ -47,7 +47,7 @@ function SignUp() {
 
             navigate('/');
         } catch (error) {
-            toast.error('Invalid Login Credentials');
+            toast.error('Something went wrong, unable to register');
         }
     };
 
